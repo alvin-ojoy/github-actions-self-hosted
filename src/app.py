@@ -6,3 +6,4 @@ def addition(a, b):
 def test_add():
     assert addition(1, 2) == 3
     assert addition(1, -1) == 0
+    assert addition(1, 1) == 2
