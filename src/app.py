@@ -1,6 +1,8 @@
 # Simple addition app
 
 def addition(a, b):
-    print(a+b)
+    return a + b
 
-addition(1,2)
+def test_add():
+    assert addition(1, 2) == 3
+    assert addition(1, -1) == 0
